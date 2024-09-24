@@ -1,0 +1,311 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.top {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background: url(./asset/images/sbk2.avif);
+    width: 100%;
+    height: 100vh;
+}
+
+/* Style for the logo swiztech college first page */
+
+
+.top header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: 10vh;
+    background-color: #004080;
+}
+
+.top header .links ul a {
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+}
+
+.top .showcase {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 617px;
+    flex-direction: column   
+}
+
+.top .showcase .h1 {
+    font-size: 45px;
+}
+
+.top .showcase .btns{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 11000;
+}
+
+.top .showcase .btns .btn1, .btn2, .btn3 { 
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    border: 3px solid black;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    transition: all 0.5s ease-in-out;
+}   /*END OF FRONT PAGE ATTRIBUTES*/
+
+/*ABOUT US PAGE BELOW*/
+
+body.About_us {
+    background-color:orange; /* Example background color */
+    background-size: cover; /* Ensures the background covers the entire page */
+    background-position: center; /* Centers the background image */
+}
+
+
+h2{
+    text-align: center;
+}
+
+.info-section {
+    margin: 40px 0; /* Add some margin for spacing */
+    padding: 30px; /* Add padding for better readability */
+    color: #f9f9f9; /* Light background color */
+    border: 3px solid black; /* Border around the section */
+    border-radius: 50px; /* Rounded corners */
+}
+
+.info-section p {
+    font-size: 20px; /* Font size for paragraph text */
+    margin: 10px 0; /* Add margin around paragraphs */
+    color: black;
+}
+
+/* Optional: Additional styling for details and paragraphs */
+details {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/*BEGINING OF REGISTRATION PAGE DESIGN*/
+
+body.registration-page {
+    background-color:orange; /* Example background color */
+    background-size: cover; /* Ensures the background covers the entire page */
+    background-position: center; /* Centers the background image */
+}
+
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    overflow: hidden;
+}
+
+/* Header styles reg. page*/
+
+.page-header {
+    background-color: #004080;
+    color: white;
+    padding: 20px;
+}
+
+
+
+.page-header a {
+    color: white; /* Make sure links are white */
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+
+/* Gallery Grid design*/
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive columns */
+    grid-gap: 20px; /* Space between images */
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+    transition: transform 0.3s ease; /* Smooth transition on hover */
+}
+
+.gallery-item:hover img {
+    transform: scale(1.1); /* Zoom effect on hover */
+}
+
+/* Footer */
+footer {
+    background-color: #004080;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+
+/*Academics page designs*/
+table {
+    width: 60%;
+    margin: 50px auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    cursor: pointer; /* Makes the table rows look clickable */
+}
+
+th {
+    background-color: #004080;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Hover effect for rows */
+tr:hover {
+    background-color: #ddd;
+}
+
+body.academics-page {
+    background-color:orange; /* Example background color */
+    background-size: cover; /* Ensures the background covers the entire page */
+    background-position: center; /* Centers the background image */
+}
+
+/*NEWS PAGE DESIGN*/
+
+body.news-page {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: orange;
+}
+
+.news-section {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.news-header {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.news-header h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+.news-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.news-card {
+    background-color: white;
+    border-radius: 50px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in;
+}
+
+.news-card:hover {
+    transform: scale(1.05);
+}
+
+.news-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.news-content {
+    padding: 20px;
+}
+
+.news-content h3 {
+    font-size: 1.5em;
+    margin: 0 0 10px;
+    color: #333;
+}
+
+.news-content p {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.news-content a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.news-content a:hover {
+    text-decoration: underline;
+}
+
+/* Pagination */
+.pagination {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.pagination a {
+    color: #333;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.pagination a:hover {
+    background-color: #ddd;
+}

@@ -1,0 +1,59 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    background: url(../asset/images/new\ bg.jpg);
+}
+
+select {
+    font-size: 1.2em;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #333;
+    position: absolute;
+    top: 43%;  /* Move the dropdown 10% from the top of the page */
+    left: 30%; /* Horizontally center the dropdown */
+    transform: translateX(-50%); /* Adjusts the dropdown to be exactly centered horizontally */
+}
+
+.btns {
+    width: 40%; /* width inside the container */
+    padding: 10px; /* Padding inside the input fields */
+    font-size: 1em; /* Larger text */
+    top: 30%;  /* Move the dropdown 10% from the top of the page */
+    left: 60%; /* Horizontally center the dropdown */
+    transform: translateX(-50%); /* Adjusts the dropdown to be exactly centered horizontally */
+    position: absolute;
+    background: none;
+}
+
+/* Style the input fields */
+.btns input[type="text"], .btns input[type="email"], .btns input[type="password"] {
+    width: 50%; /* Full width inside the container */
+    padding: 12px; /* Padding inside the input fields */
+    font-size: 1.1em; /* Larger text */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    margin-bottom: 20px; /* Space below each input */
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+}
+
+button{
+    width: 40%; /* Full width inside the container */
+    padding: 12px; /* Padding inside the input fields */
+    font-size: 1em; /* Larger text */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    margin-bottom: 20px; /* Space below each input */
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+}
+
+/* Style for the container holding both buttons */
+.button {
+    position: absolute;
+    left: 52%;       /* Move container to the middle of the page */
+    top: 70%;        /* Move container to 90% down the page (near the bottom) */
+    transform: translate(-50%, -50%); /* Center it horizontally */
+    background: none;
+    width: 20%;
+}
